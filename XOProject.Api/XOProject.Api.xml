@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XOProject.Api</name>
+    </assembly>
+    <members>
+        <member name="M:XOProject.Api.Controller.AnalyticsController.Daily(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>Get daily analytics price</summary>
+            <param name="symbol">symbol of the share</param>
+            <param name="year">numerical year example (2018)</param>
+            <param name="month">numerical month example March is 3</param>
+            <param name="day">numerical day example 3</param>
+        </member>
+        <member name="M:XOProject.Api.Controller.AnalyticsController.Weekly(System.String,System.Int32,System.Int32)">
+            <summary>Get analytics shares weekly</summary>
+            <param name="symbol">symbol of the share</param>
+            <param name="year">numeric year example 2018</param>
+            <param name="week">numeric week number of the year example 12</param>
+        </member>
+        <member name="M:XOProject.Api.Controller.AnalyticsController.Monthly(System.String,System.Int32,System.Int32)">
+            <summary>Get monthly analytics for share prices</summary>
+            <param name="symbol">Symbol of the share</param>
+            <param name="year">numerical year example 2018</param>
+            <param name="month">numerical month example 3</param>
+        </member>
+    </members>
+</doc>
